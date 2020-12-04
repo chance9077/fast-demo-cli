@@ -1,0 +1,15 @@
+{
+  "name": "fast-demo",
+  "version": "1.0.0",
+  "license": "MIT",
+  "bin": {
+    "fast-demo": "./cli.js",
+    "fd": "./cli.js"
+  },
+  "main": "./index.js",
+  "dependencies": {
+    "download-git-repo": "^3.0.2",
+    "minimist": "^1.2.5",
+    "ora": "^5.1.0"
+  }
+}
