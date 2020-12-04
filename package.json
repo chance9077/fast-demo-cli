@@ -8,6 +8,7 @@
   },
   "main": "./index.js",
   "dependencies": {
+    "chalk": "^4.1.0",
     "download-git-repo": "^3.0.2",
     "minimist": "^1.2.5",
     "ora": "^5.1.0"
