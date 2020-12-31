@@ -12,4 +12,7 @@ downloadTask({ name: projectName })
     console.log(chalk.blue(`cd ${projectName}`))
     console.log(chalk.blue(`npm or yarn run dev`))
   })
+  .catch(() => {
+    console.log('download template error')
+  })
 

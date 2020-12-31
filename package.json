@@ -1,6 +1,6 @@
 {
   "name": "fast-demo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "bin": {
     "fast-demo": "./cli.js",
