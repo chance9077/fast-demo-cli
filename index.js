@@ -1,7 +1,10 @@
 const { downloadTask } = require('./lib/task')
 
-function create({ name }) {
-  return downloadTask({ name })
+function create(options) {
+  return downloadTask({
+    name: options.name,
+    template: options.template
+  })
 }
 
 module.exports = { create }
