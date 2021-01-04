@@ -1,7 +1,7 @@
 module.exports = {
   repo: 'chance9077',
   template: {
-    default: 'fast-demo-template',
+    default: 'webpack-demo-template',
     devtools: 'chrome-devtools-template'
   },
   downloading: 'downloading template...',
